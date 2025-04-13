@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting minutes</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+  
+    <header>
+      <H1>Pancakes or Waffles? - Meeting 4/12/25</H1>
+      <H2>Which is the better breakfast food?</H2>
+    </header>
+
+    <main>
+      <nav>
+        <ul>
+          <li><a href="#attendees">Attendees</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#arguments">Arguments</a></li>
+          <li><a href="#media">Media</a></li>
+        </ul>
+      </nav>
+    <section id = "attendees">
+    <h3>Attendees</h3>
+    <ul>
+      <li>Luis Zaragoza</li>
+      <li>El Chavo Del Ocho</li>
+      <li>Bruce Wayne</li>
+      <li>Lebron James</li>
+      <li>Perry the Platypus</li>
+    </ul>
+  </section>
+  <section id = "agenda">
+    <h3 id="agenda">Agenda</h3>
+    <ol>
+      <li>Opening statement</li>
+      <li>Arguments from attendees</li>
+      <li>Voting</li>
+      <li>Conclusion</li>
+    </ol>
+  </section>
+  <section id = "arguments">
+    <section>
+      <h3>Perry the Platypus's Argument</h3>
+      <p><b>Waffles</b> are better because they hold syrup better</p>
+    </section>
+    
+    <section>
+      <h3>Bruce Waynes' Argument</h3>
+      <p><b>Pancakes</b> are better because they are stackable</p>
+    </section>
+  </section>
+  <H2>Meeting recording</H2>
+    <video width="320" height="240" controls>
+      <source src = "perry.mp4" type ="video/mp4">
+    </video>
+    <audio controls><source src = "perry.mp3" type="audio/ogg"></audio>
+    <img width="320" height="240"
+      src="perry the platypus.jpg"
+    alt="Perry" />
+
+    <section id="feedback">
+      <h2>Feedback Form</h2>
+      <form>
+        <fieldset>
+          <legend>Meeting Feedback</legend>
+    
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br><br>
+    
+          <label for="date">Meeting Date:</label><br>
+          <input type="date" id="date" name="date"><br><br>
+    
+          <p>Your Vote:</p>
+          <input type="radio" id="waffles" name="vote" value="waffles">
+          <label for="waffles">Waffles</label>
+          <input type="radio" id="pancakes" name="vote" value="pancakes">
+          <label for="pancakes">Pancakes</label><br><br>
+    
+          <label for="comments">Comments:</label><br>
+          <textarea id="comments" name="comments" rows="3" cols="30"></textarea><br><br>
+    
+          <label for="topping">Favorite Topping:</label>
+          <input list="toppings" id="topping" name="topping">
+          <datalist id="toppings">
+            <option value="Syrup">
+            <option value="Butter">
+            <option value="Fruit">
+            <option value="Whipped Cream">
+          </datalist><br><br>
+    
+          <label for="suggestions">Suggestions:</label>
+          <select id="suggestions" name="suggestions">
+            <option value="Foods">Add more foods</option>
+            <option value="test">Have a taste test</option>
+          </select><br><br>
+    
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Email you the results</label><br><br>
+    
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+
+    </main>
+
+    <footer>
+      <hr>
+      <p><strong>Conclusion:</strong> After much debate, <em>waffles</em> are the best</p>
+    </footer>
+  </body>
+</html>

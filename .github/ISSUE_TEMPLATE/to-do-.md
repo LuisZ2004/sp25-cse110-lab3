@@ -1,6 +1,6 @@
 ---
 name: 'To Do:'
-about: Describe this issue template's purpose here.
+about: What is the next step in the Lab?
 title: Next Step in completing the Lab
 labels: ''
 assignees: LuisZ2004

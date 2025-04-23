@@ -29,3 +29,9 @@ button{
     background-color: color-mix(in srgb, rgb(59, 58, 63) 60%, rgb(66, 66, 66) 40%);
 }
 
+h1{
+    /*Aligning title*/
+    text-align: center;
+    text-decoration: solid underline;
+}
+

@@ -92,3 +92,15 @@ video{
       width: 90%;
     }
 }
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: greenyellow;
+    transform: scale(0.95);
+  }
+  

@@ -7,12 +7,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta charset="utf-8" />
+
+    <!-- Adding Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    
+    <!-- Adding CSS File -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
   
     <header>
-      <H1>Pancakes or Waffles? - Meeting 4/12/25</H1>
-      <H2>Which is the better breakfast food?</H2>
+      <h1>Pancakes or Waffles? - Meeting 4/12/25</h1>
+      <h2>Which is the better breakfast food?</h2>
     </header>
 
     <main>
@@ -54,14 +62,24 @@
       <p><b>Pancakes</b> are better because they are stackable</p>
     </section>
   </section>
-  <H2>Meeting recording</H2>
-    <video width="320" height="240" controls>
+  <h2>Meeting recording</h2>
+    <video class = "playable" id="Perry" controls>
       <source src = "perry.mp4" type ="video/mp4">
     </video>
-    <audio controls><source src = "perry.mp3" type="audio/ogg"></audio>
-    <img width="320" height="240"
+    <audio class="playable" controls><source src = "perry.mp3" type="audio/ogg"></audio>
+    <img id = "Perry"
       src="perry.jpg" alt="Perry" />
 
+    <section class="calendar">
+      <div class="day">Sun</div>
+      <div class="day">Mon</div>
+      <div class="day">Tue</div>
+      <div class="day">Wed</div>
+      <div class="day">Thu</div>
+      <div class="day">Fri</div>
+      <div class="day">Sat</div>
+    </section>
+    
     <section id="feedback">
       <h2>Feedback Form</h2>
       <form>

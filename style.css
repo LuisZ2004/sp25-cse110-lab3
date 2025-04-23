@@ -1,0 +1,158 @@
+*{
+    font-family: Lato;
+}
+body{
+    /* Added Color to background */
+    background-color: whitesmoke;
+}
+
+/* Using Google Font Lato on all text*/
+h1, h2, h3, p , li, form{
+    color: black;
+}
+
+form{
+    /* Added Color to background */
+    background-color: rgb(230,230,230);
+    /* Added display value */
+    display: inline-block;
+
+    /* Border attributes */
+    border-style: double;
+    border-color:hsl(260, 15%, 30%);
+    border-width: 5px;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+h1,h2,h3{
+    /* Added Color to text */
+    color: #000000;
+}
+
+p,li{
+    /* Added Color to text */
+    color :hsl(260, 15%, 30%);
+    font-size: 12pt;
+}
+
+button{
+    /* Added color to both text and background */
+    color: color(srgb 0.4 0.7 0.4 / 0.8);
+    background-color: color-mix(in srgb, rgb(59, 58, 63) 60%, rgb(66, 66, 66) 40%);
+}
+
+h1{
+    /*Aligning title*/
+    text-align: center;
+    text-decoration: solid underline;
+
+    /* Box Model attributes */
+    margin: 40px auto 30px auto;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.playable{
+    display: block;
+} 
+
+#Perry{
+    height: auto;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 250px;
+}
+
+img{
+    position: relative;
+}
+
+video{
+    position: sticky;
+}
+
+@media (orientation: landscape) {
+    #PerryImage {
+        width: 45%;
+      }
+}
+
+
+@media (orientation: portrait) {
+    #Perry{
+      width: 90%;
+    }
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: greenyellow;
+    transform: scale(0.95);
+  }
+  
+  @counter-style emoji-ordered {
+    system: fixed;
+    symbols: "1️⃣" "2️⃣" "3️⃣" "4️⃣" "5️⃣" "6️⃣" "7️⃣" "8️⃣" "9️⃣" "🔟";
+    fallback: decimal; /* fallback to normal 1., 2., 3. */
+  }
+  
+  ol{
+    list-style: emoji-ordered;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 1rem;
+    max-width: 600px;
+    margin: auto;
+    place-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+
+  #arguments h3{
+    text-decoration: underline;
+  }
+  
+  h1 + h2{
+    padding: 5px;
+  }
+
+input[type="text"] {
+  border: 2px solid rgb(120, 61, 138);
+  background-color: #f9f9f9;
+  padding: 5px;
+}
+
+video ~ audio{
+    border: 2px dashed #444;
+    padding: 5px;
+}
+
+form:has(input[type="checkbox"]) {
+    border-color: #0077cc;
+    background-color: #eef6ff;
+  }
+  

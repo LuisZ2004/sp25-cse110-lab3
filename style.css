@@ -11,6 +11,8 @@ h1, h2, h3, p , li, form{
 form{
     /* Added Color to background */
     background-color: rgb(230,230,230);
+    /* Added display value */
+    display: inline-block;
 }
 
 h1,h2,h3{
@@ -35,3 +37,13 @@ h1{
     text-decoration: solid underline;
 }
 
+.playable{
+    display: block;
+}
+
+#Perry{
+    height: auto;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 250px;
+}

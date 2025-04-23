@@ -104,3 +104,29 @@ button:hover {
     transform: scale(0.95);
   }
   
+  @counter-style emoji-ordered {
+    system: fixed;
+    symbols: "1️⃣" "2️⃣" "3️⃣" "4️⃣" "5️⃣" "6️⃣" "7️⃣" "8️⃣" "9️⃣" "🔟";
+    fallback: decimal; /* fallback to normal 1., 2., 3. */
+  }
+  
+  ol{
+    list-style: emoji-ordered;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 1rem;
+    max-width: 600px;
+    margin: auto;
+    place-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  

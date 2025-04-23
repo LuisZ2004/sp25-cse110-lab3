@@ -40,6 +40,7 @@ h1,h2,h3{
 p,li{
     /* Added Color to text */
     color :hsl(260, 15%, 30%);
+    font-size: 12pt;
 }
 
 button{

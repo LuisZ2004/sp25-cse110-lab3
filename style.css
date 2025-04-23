@@ -13,6 +13,11 @@ form{
     background-color: rgb(230,230,230);
     /* Added display value */
     display: inline-block;
+    /* Border attributes */
+    border-style: double;
+    border-color:hsl(260, 15%, 30%);
+    border-width: 5px;
+    border-radius: 5px;
 }
 
 h1,h2,h3{
@@ -39,7 +44,7 @@ h1{
 
 .playable{
     display: block;
-}
+} 
 
 #Perry{
     height: auto;

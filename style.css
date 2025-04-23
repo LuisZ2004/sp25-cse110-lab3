@@ -1,10 +1,31 @@
 body{
+    /* Added Color to background */
     background-color: whitesmoke;
 }
 
 /* Using Google Font Lato on all text*/
-h1, h2, h3, p , li, option, label, select, legend{
+h1, h2, h3, p , li, form{
     font-family: Lato; 
 }
 
+form{
+    /* Added Color to background */
+    background-color: rgb(230,230,230);
+}
+
+h1,h2,h3{
+    /* Added Color to text */
+    color: #000000;
+}
+
+p,li{
+    /* Added Color to text */
+    color :hsl(260, 15%, 30%);
+}
+
+button{
+    /* Added color to both text and background */
+    color: color(srgb 0.4 0.7 0.4 / 0.8);
+    background-color: color-mix(in srgb, rgb(59, 58, 63) 60%, rgb(66, 66, 66) 40%);
+}
 

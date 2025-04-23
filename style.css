@@ -1,3 +1,10 @@
 body{
     background-color: whitesmoke;
 }
+
+/* Using Google Font Lato on all text*/
+h1, h2, h3, p , li, option, label, select, legend{
+    font-family: Lato; 
+}
+
+

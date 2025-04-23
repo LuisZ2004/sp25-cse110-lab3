@@ -79,3 +79,16 @@ img{
 video{
     position: sticky;
 }
+
+@media (orientation: landscape) {
+    #PerryImage {
+        width: 45%;
+      }
+}
+
+
+@media (orientation: portrait) {
+    #Perry{
+      width: 90%;
+    }
+}

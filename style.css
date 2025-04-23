@@ -1,3 +1,6 @@
+*{
+    font-family: Lato;
+}
 body{
     /* Added Color to background */
     background-color: whitesmoke;
@@ -5,7 +8,6 @@ body{
 
 /* Using Google Font Lato on all text*/
 h1, h2, h3, p , li, form{
-    font-family: Lato;
     color: black;
 }
 
@@ -128,5 +130,29 @@ button:hover {
     place-items: center;
     border: 2px solid #ccc;
     border-radius: 8px;
+  }
+
+  #arguments h3{
+    text-decoration: underline;
+  }
+  
+  h1 + h2{
+    padding: 5px;
+  }
+
+input[type="text"] {
+  border: 2px solid rgb(120, 61, 138);
+  background-color: #f9f9f9;
+  padding: 5px;
+}
+
+video ~ audio{
+    border: 2px dashed #444;
+    padding: 5px;
+}
+
+form:has(input[type="checkbox"]) {
+    border-color: #0077cc;
+    background-color: #eef6ff;
   }
   
